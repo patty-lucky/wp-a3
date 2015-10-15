@@ -1,0 +1,558 @@
+/* Start of CSS for common content*/
+
+.hidden,.hidden1, .hidden2, .hidden3  {
+	display:none;
+}
+
+
+
+
+body
+{
+	background-color:#000000;
+	font-family:Sans-Serif;
+	background-repeat:no-repeat;
+	
+}
+.header{
+margin: 0% 2.5% 0% 2.5%;
+background-color: black;
+border-radius:10px 10px 0 0;
+}
+.head-image{
+	display:inline-block;
+	margin:0px 0px 0px 0px;
+	
+}
+
+.heading{
+	display:inline-block; 
+	color:#00E6E6;
+	font-size:40px;
+	margin:0;
+
+}
+
+.cycle-slideshow, .dolby{
+	
+	padding:0px;
+	margin:0 auto;
+	display:block;
+	position:relative;
+	height:700px;
+	width:95%;
+	}
+
+	.poster, .dolby-image{
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:100%;
+	padding-top:5px;
+	padding-bottom:0;
+	border-radius:5px 5px 0 0;
+	}
+	
+	.dolby-image{
+	padding-top:0px;
+	}
+	
+	.dolby-description{
+		position:absolute;
+		left:10%;
+		top:5%;
+		padding:5px;
+		z-index: 1000;
+		text-align:center;
+		color:#47ABED;
+	}
+	
+
+	.announcements{
+		color:white;
+	}
+	.cycle-pager{
+	width:100%;
+	text-align:center;
+	display:block;
+	position:absolute;
+	bottom:20px;
+	z-index:9999;
+	cursor:pointer;
+	}
+
+	.cycle-pager span{
+	text-indent:0%;
+	white-space: nowrap;
+	width:12px;
+	height:12px;
+	display:inline-block;
+	border:1px solid #FFF;
+	border-radius: 50%;
+	margin: 0 10px;
+	color:transparent;
+	}
+	
+	.cycle-pager .cycle-pager-active{background: #FFF;}
+
+	.link-to-now-showing{
+		text-align:center;
+		background-color:#E6E6E6;
+		margin:0% 2.5% 0% 2.5%;
+		border-radius:0px 0px 5px 5px;
+		
+		
+	}
+	
+	.now-showing-link{
+		text-decoration:none;
+	}
+	
+	.link{
+		color:black;
+		font-size:30px;
+		margin:5px;
+		padding:5px;
+		text-decoration:none;
+		
+	}
+	.link:hover{
+		color:#47ABED;
+	}
+	
+	.footer{
+	display:inline-block;
+	margin:0 2.5% 0 2.5%;
+	padding:0;
+	background: none repeat scroll 00 #222;
+	color:#fff;
+	font-family: sans-serif;
+	width:95%;
+}
+
+.footer-content{
+	
+	display:inline-block;
+	padding:0;
+	margin:0 auto;
+	width:100%;
+}
+.footer ul{
+	padding:0;
+	list-style:none;
+	text-align:center;
+	display:inline-block;
+	margin:15px 0;
+}
+
+.footer ul li:first-child{
+	border:none !important;
+	
+}
+.footer ul li {
+	padding:0 20px;
+	font-size:10px;
+	line-height:20px;
+	display:inline-block;
+}
+.footer span{
+	display:inline;
+	text-align:right;
+	color:#55578c;
+	font-size:10px;
+	float:right;
+	margin:15px 0;
+}
+
+	
+/* End of CSS for common content*/
+
+
+/* Start of CSS for now-showing page*/
+.now-showing
+{
+	width:95%;
+	height:100%;
+	text-align:center;
+	background-color:#1A1D20;
+	margin: 0% 2.5% 0% 2.5%;
+	border-radius:4px 4px 4px 4px;
+	
+
+}
+
+.each-movie
+{
+	width:90%;
+	border-bottom: 1px solid #D8D8D8;
+	background-color:#202428;
+	display:inline-block;
+	padding:17px 17px;
+	border-radius:4px 4px 4px 4px;
+	margin-top:2%;
+}
+
+.container1{
+	width:20%;
+	height:100%;
+	display:inline-block;
+	float:left;
+}
+.container2{
+	width:60%;
+	height:100%;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+.container3{
+	width:20%;
+	height:100%;
+	vertical-align:top;
+	float:right;
+	
+}
+
+.image{
+	height:100%; 
+	width:100%
+}
+#description{
+color:white;
+margin:0px 10px;
+padding:0px;
+font-family:georgia;
+
+}
+.extras{
+	
+	margin:10px;
+	padding:10px;
+	
+}
+	
+.extras li{	
+	background-color: #47ABED;
+    color: white;
+    padding: 5px 5px;
+    text-align:center;
+    border-radius: 4px 4px 4px 4px;
+	margin:10px;
+	list-style-type:none;
+	font-family:georgia;
+}
+
+/* End of CSS for now-showing page*/
+
+
+/* Start of CSS for contact page */
+#contact-form{
+	
+	color:black;
+	background-color:#E6E6E6;
+	margin:0% 2.5% 0% 2.5%;
+	position:relative;
+	padding:10px;
+	border:1px solid black;
+	border-radius:0 0 10px 10px;
+}
+
+.form-div{
+	
+	margin-left:100px;
+	font-family:"courier new", monospace;
+	
+}
+
+.contact-form .form-div input, select, textarea{
+	width:400px;
+	border:1px solid black;
+	
+}
+
+.submit-button {
+
+
+background:black;
+color:white;
+border-radius: 15px;
+border: 1px solid black;
+width:200px;
+height:30px;
+font-size:20px;
+font-family:"courier new", monospace;
+}
+
+.submit-button:hover {
+background:white;
+color:#47ABED;
+}
+/* End of CSS for contact page */
+
+
+
+
+
+
+/* Start of CSS for checkout page*/
+#movies{
+	font-family:"courier new", monospace;
+	color:black;
+	background-color:#E6E6E6;
+	margin:0% 2.5% 0% 2.5%;
+	position:relative;
+	padding:10px;
+	border:1px solid black;
+	border-radius:0 0 10px 10px;
+	min-width:500px;
+}
+
+
+.movieCheckout{
+	padding: 10px;
+	margin:0% 2.5% 0% 2.5%;
+}
+
+#movies .movieCheckout .movieTable select{
+		width:315px;
+		border:1px solid black;
+}
+
+#movies .movieCheckout .movieTable td{
+	width:140px;
+	margin-top:10px;
+}
+
+input{
+	width:140px;
+	border:1px solid black;
+}
+
+#voucher{
+	width:180px;
+}
+#throw {
+
+background:black;
+color:white;
+border-radius: 15px;
+border: 1px solid black;
+width:200px;
+height:30px;
+font-size:20px;
+font-family:"courier new", monospace;
+float:right;
+}
+
+#throw:hover {
+background:white;
+color:#47ABED;
+}
+/* End of CSS for checkout page*/
+
+
+/*Start of CSS for mobile responsive pages*/
+.navigation-bar:before,
+.navigation-bar:after {
+    content: " ";
+    display: table;
+}
+.navigation-bar:after {
+    clear: both;
+}
+.navigation-bar {
+    *zoom: 1;
+}
+
+/* Basic Styles */
+
+nav {
+	height: 40px;
+	width: 95%;
+	background: #E6E6E6;
+	font-size: 11pt;
+	font-family:sans-serif;
+	position: relative;
+	border-bottom: 2px solid #283744;
+	left:2.5%;
+	border-radius: 10px 10px 0 0;
+	
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 600px;
+	height: 40px;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+nav a {
+	color: black;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	
+}
+nav li a {
+	border-right: 1px solid black;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #47ABED;
+}
+nav a#pull {
+	display: none;
+}
+
+#cartLogo{
+	display: inline;
+	float:right;
+	height: 50px;
+	width: auto;
+	margin-left : 50px;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 650px) {
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+  	nav li a {
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+}
+
+/*Styles for screen 480px and lower*/
+@media only screen and (max-width : 480px) {
+
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #E6E6E6;
+		width: 100%;
+		position: relative;
+		font-size:20px;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('images/menu-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 400px) {
+	nav li {
+		display:block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+		border-bottom: 1px solid black;
+	}
+}
+/*End of mobile responsive CSS*/
+@media only screen and (max-width: 500px){
+.dolby-description{
+	
+		left:0%;
+		right:0%;
+	}
+	
+.dolby-description h1{
+	font-size:30px !important;
+}
+
+.dolby-description h2{
+	font-size:15px!important;
+}
+.dolby-description h3{
+	font-size:10px!important;
+}
+
+}
+
+@media only screen and (max-width: 350px){
+	.link{
+		font-size:15px!important;
+	}
+
+}
+
+@media only screen and (max-width: 950px){
+
+.container2{
+	width:50%;
+}
+.container3{
+	width:30%;
+}
+
+}
+
+@media only screen and (max-width: 650px){
+	
+	
+.container1{
+	width:100%;
+	height:100%;
+	display:inline-block;
+	float:none;
+}
+.container1 img {
+	width:200px !important;
+	height:100%;
+}
+.container2{
+	width:100%;
+	display:block;
+	text-align:center;
+}
+.container3{
+	width:100%;
+	float:none;
+}
+
+.form-div{
+	
+	margin-left:0px;
+}
+
+.contact-form .form-div input, select, textarea{
+	width:100%;
+}
+	
+}
